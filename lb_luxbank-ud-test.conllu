@@ -1,0 +1,265 @@
+# sent_id = test-c1
+# text = D' Meedchen huet e Bréif un säi Frënd geschriwwen .
+1	D'	D'	D	_	def	_	_	_	_
+2	Meedchen	Meedchen	N	_	_	_	_	_	_
+3	huet	hunn	V	_	fin	_	_	_	_
+4	e	en	D	_	indef	_	_	_	_
+5	Bréif	Bréif	N	_	_	_	_	_	_
+6	un	un	Prep	_	_	_	_	_	_
+7	säi	säin	D	_	poss	_	_	_	_
+8	Frënd	Frënd	N	_	_	_	_	_	_
+9	geschriwwen	schreiwen	V	_	n-fin	_	_	_	_
+10	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c2
+# text = Ech mengen et reent .
+11	Ech	Ech	P	_	_	_	_	_	_
+12	mengen	mengen	V	_	fin	_	_	_	_
+13	et	et	P	_	_	_	_	_	_
+14	reent	reenen	V	_	fin	_	_	_	_
+15	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c3
+# text = Hien huet probéiert opzehalen mat fëmmen an drénken .
+16	Hien	Hien	P	_	_	_	_	_	_
+17	huet	hunn	V	_	fin	_	_	_	_
+18	probéiert	probéieren	V	_	n-fin	_	_	_	_
+19	opzehalen	ophalen	V	_	n-fin	_	_	_	_
+20	mat	mat	Prep	_	_	_	_	_	_
+21	fëmmen	fëmmen	V	_	n-fin	_	_	_	_
+22	an	an	Konj	_	_	_	_	_	_
+23	drénken	drénken	V	_	n-fin	_	_	_	_
+24	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c4
+# text = Wëlls du goen ?
+25	Wëlls	Wëllen	V	_	fin	_	_	_	_
+26	du	du	P	_	_	_	_	_	_
+27	goen	goen	V	_	n-fin	_	_	_	_
+28	?	?	$	_	_	_	_	_	_
+
+# sent_id = test-c5
+# text = Sam , maach d' Fënster op !
+29	Sam	Sam	N	_	name	_	_	_	_
+30	,	,	$	_	_	_	_	_	_
+31	maach	maachen	V	_	fin	_	_	_	_
+32	d'	d'	D	_	def	_	_	_	_
+33	Fënster	Fënster	N	_	_	_	_	_	_
+34	op	op	VPart	_	_	_	_	_	_
+35	!	!	$	_	_	_	_	_	_
+
+# sent_id = test-c6
+# text = Si huet hire Mann den Auto wäsche gedoen .
+36	Si	Si	P	_	_	_	_	_	_
+37	huet	hunn	V	_	fin	_	_	_	_
+38	hire	hir	D	_	poss	_	_	_	_
+39	Mann	Mann	N	_	_	_	_	_	_
+40	den	den	D	_	def	_	_	_	_
+41	Auto	Auto	N	_	_	_	_	_	_
+42	wäsche	wäschen	V	_	n-fin	_	_	_	_
+43	gedoen	dinn	V	_	n-fin	_	_	_	_
+44	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c7
+# text = Dem Peter säin Noper huet den Zonk rout ugestrach .
+45	Dem	Den	D	_	def	_	_	_	_
+46	Peter	Peter	N	_	name	_	_	_	_
+47	säin	säin	D	_	poss	_	_	_	_
+48	Noper	Noper	N	_	_	_	_	_	_
+49	huet	hunn	V	_	fin	_	_	_	_
+50	den	den	D	_	def	_	_	_	_
+51	Zonk	Zonk	N	_	_	_	_	_	_
+52	rout	rout	Adj	_	_	_	_	_	_
+53	ugestrach	usträichen	V	_	n-fin	_	_	_	_
+54	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c8
+# text = Mäi Papp ass méi cool wéi däin .
+55	Mäi	Mäin	D	_	poss	_	_	_	_
+56	Papp	Papp	N	_	_	_	_	_	_
+57	ass	sinn	V	_	fin	_	_	_	_
+58	méi	méi	Adv	_	_	_	_	_	_
+59	cool	cool	Adj	_	_	_	_	_	_
+60	wéi	wéi	Konj	_	_	_	_	_	_
+61	däin	däin	D	_	poss	_	_	_	_
+62	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c9
+# text = D' Mary huet Bronze gewonnen , de Peter Sëlwer an d' Jane Gold .
+63	D'	D'	D	_	def	_	_	_	_
+64	Mary	Mary	N	_	name	_	_	_	_
+65	huet	hunn	V	_	fin	_	_	_	_
+66	Bronze	Bronze	N	_	_	_	_	_	_
+67	gewonnen	gewannen	V	_	n-fin	_	_	_	_
+68	,	,	$	_	_	_	_	_	_
+69	de	den	D	_	def	_	_	_	_
+70	Peter	Peter	N	_	name	_	_	_	_
+71	Sëlwer	Sëlwer	N	_	_	_	_	_	_
+72	an	an	Konj	_	_	_	_	_	_
+73	d'	d'	D	_	def	_	_	_	_
+74	Jane	Jane	N	_	name	_	_	_	_
+75	Gold	Gold	N	_	_	_	_	_	_
+76	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c10
+# text = Ass Iguazu e grousst oder e klengt Land ?
+77	Ass	Sinn	V	_	fin	_	_	_	_
+78	Iguazu	Iguazu	N	_	name	_	_	_	_
+79	e	en	D	_	indef	_	_	_	_
+80	grousst	grouss	Adj	_	_	_	_	_	_
+81	oder	oder	Konj	_	_	_	_	_	_
+82	e	en	D	_	indef	_	_	_	_
+83	klengt	kleng	Adj	_	_	_	_	_	_
+84	Land	Land	N	_	_	_	_	_	_
+85	?	?	$	_	_	_	_	_	_
+
+# sent_id = test-c11
+# text = Weeder de Peter Smith nach d' Mary Brown konnten ausgewielt ginn .
+86	Weeder	Weeder	Konj	_	_	_	_	_	_
+87	de	den	D	_	def	_	_	_	_
+88	Peter	Peter	N	_	name	_	_	_	_
+89	Smith	Smith	N	_	name	_	_	_	_
+90	nach	nach	Konj	_	_	_	_	_	_
+91	d'	d'	D	_	def	_	_	_	_
+92	Mary	Mary	N	_	name	_	_	_	_
+93	Brown	Brown	N	_	name	_	_	_	_
+94	konnten	kënnen	V	_	fin	_	_	_	_
+95	ausgewielt	auswielen	V	_	n-fin	_	_	_	_
+96	ginn	ginn	V	_	n-fin	_	_	_	_
+97	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c12
+# text = Si hu keng Anung , wien et geschriwwen huet .
+98	Si	Si	P	_	_	_	_	_	_
+99	hu	hunn	V	_	fin	_	_	_	_
+100	keng	keng	D	_	indef	_	_	_	_
+101	Anung	Anung	N	_	_	_	_	_	_
+102	,	,	$	_	_	_	_	_	_
+103	wien	wien	P	_	_	_	_	_	_
+104	et	et	P	_	_	_	_	_	_
+105	geschriwwen	schreiwen	V	_	n-fin	_	_	_	_
+106	huet	hunn	V	_	fin	_	_	_	_
+107	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c13
+# text = Wat kucks du dir un ?
+108	Wat	Wat	P	_	_	_	_	_	_
+109	kucks	kucken	V	_	fin	_	_	_	_
+110	du	du	P	_	_	_	_	_	_
+111	dir	du	P	_	_	_	_	_	_
+112	un	un	VPart	_	_	_	_	_	_
+113	?	?	$	_	_	_	_	_	_
+
+# sent_id = test-c14
+# text = Wéini mengs du , datt s du komme kanns ?
+114	Wéini	Wéini	P	_	_	_	_	_	_
+115	mengs	mengen	V	_	fin	_	_	_	_
+116	du	du	P	_	_	_	_	_	_
+117	,	,	$	_	_	_	_	_	_
+118	datt	datt	Subj	_	_	_	_	_	_
+119	s	s	PTK	_	clitic	_	_	_	_
+120	du	du	P	_	_	_	_	_	_
+121	komme	kommen	V	_	n-fin	_	_	_	_
+122	kanns	kënnen	V	_	fin	_	_	_	_
+123	?	?	$	_	_	_	_	_	_
+
+# sent_id = test-c15
+# text = Hien huet en Auto kaaft , awer säi Brudder just e Vëlo .
+124	Hien	Hien	P	_	_	_	_	_	_
+125	huet	hunn	V	_	fin	_	_	_	_
+126	en	en	D	_	indef	_	_	_	_
+127	Auto	Auto	N	_	_	_	_	_	_
+128	kaaft	kafen	V	_	n-fin	_	_	_	_
+129	,	,	$	_	_	_	_	_	_
+130	awer	awer	Konj	_	_	_	_	_	_
+131	säi	säin	D	_	poss	_	_	_	_
+132	Brudder	Brudder	N	_	_	_	_	_	_
+133	just	just	Adv	_	_	_	_	_	_
+134	e	en	D	_	indef	_	_	_	_
+135	Vëlo	Vëlo	N	_	_	_	_	_	_
+136	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c16
+# text = De Peter an d' Mary hunn sech ëmaarmt an dunn de Raum verlooss .
+137	De	Den	D	_	def	_	_	_	_
+138	Peter	Peter	N	_	name	_	_	_	_
+139	an	an	Konj	_	_	_	_	_	_
+140	d'	d'	D	_	def	_	_	_	_
+141	Mary	Mary	N	_	name	_	_	_	_
+142	hunn	hunn	V	_	fin	_	_	_	_
+143	sech	sech	P	_	_	_	_	_	_
+144	ëmaarmt	ëmaarmen	V	_	n-fin	_	_	_	_
+145	an	an	Konj	_	_	_	_	_	_
+146	dunn	dunn	Adv	_	_	_	_	_	_
+147	de	den	D	_	def	_	_	_	_
+148	Raum	Raum	N	_	_	_	_	_	_
+149	verlooss	verloossen	V	_	fin	_	_	_	_
+150	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c17
+# text = Si hätt sollen hir Hoer maachen , awer aus iergendengem Grond huet si et deen Dag net gemaach .
+151	Si	Si	P	_	_	_	_	_	_
+152	hätt	hunn	V	_	fin	_	_	_	_
+153	sollen	sollen	V	_	n-fin	_	_	_	_
+154	hir	hir	D	_	poss	_	_	_	_
+155	Hoer	Hoer	N	_	_	_	_	_	_
+156	maachen	maachen	V	_	n-fin	_	_	_	_
+157	,	,	$	_	_	_	_	_	_
+158	awer	awer	Konj	_	_	_	_	_	_
+159	aus	aus	Prep	_	_	_	_	_	_
+160	iergendengem	iergendeen	D	_	int	_	_	_	_
+161	Grond	Grond	N	_	_	_	_	_	_
+162	huet	hunn	V	_	fin	_	_	_	_
+163	si	si	P	_	_	_	_	_	_
+164	et	et	P	_	_	_	_	_	_
+165	deen	deen	D	_	def	_	_	_	_
+166	Dag	Dag	N	_	_	_	_	_	_
+167	net	net	Part	_	_	_	_	_	_
+168	gemaach	maachen	V	_	n-fin	_	_	_	_
+169	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c18
+# text = Ech konnt net mathalen , well hien ze séier gelaf ass .
+170	Ech	Ech	P	_	_	_	_	_	_
+171	konnt	kënnen	V	_	fin	_	_	_	_
+172	net	net	Part	_	_	_	_	_	_
+173	mathalen	mathalen	V	_	n-fin	_	_	_	_
+174	,	,	$	_	_	_	_	_	_
+175	well	well	Subj	_	_	_	_	_	_
+176	hien	hien	P	_	_	_	_	_	_
+177	ze	ze	Part	_	_	_	_	_	_
+178	séier	séier	Adj	_	_	_	_	_	_
+179	gelaf	lafen	V	_	n-fin	_	_	_	_
+180	ass	ass	V	_	fin	_	_	_	_
+181	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c19
+# text = Dëse Bréif ass vum Peter an e gouf gëschter zougestallt .
+182	Dëse	Dësen	D	_	dem	_	_	_	_
+183	Bréif	Bréif	N	_	_	_	_	_	_
+184	ass	sinn	V	_	_	_	_	_	_
+185	vum	vum	Prep+D	_	def	_	_	_	_
+186	Peter	Peter	N	_	_	_	_	_	_
+187	an	an	Konj	_	_	_	_	_	_
+188	e	en	P	_	_	_	_	_	_
+189	gouf	ginn	V	_	fin	_	_	_	_
+190	gëschter	gëschter	Adv	_	_	_	_	_	_
+191	zougestallt	zoustellen	V	_	n-fin	_	_	_	_
+192	.	.	$	_	_	_	_	_	_
+
+# sent_id = test-c20
+# text = Si ass zu Paräis , der Haaptstad vu Frankräich , opgewuess .
+193	Si	Si	P	_	_	_	_	_	_
+194	ass	sinn	V	_	fin	_	_	_	_
+195	zu	zu	Prep	_	_	_	_	_	_
+196	Paräis	Paräis	N	_	_	_	_	_	_
+197	,	,	$	_	_	_	_	_	_
+198	der	d'	D	_	def	_	_	_	_
+199	Haaptstad	Haaptstad	N	_	_	_	_	_	_
+200	vu	vun	Prep	_	_	_	_	_	_
+201	Frankräich	Frankräich	N	_	_	_	_	_	_
+202	,	,	$	_	_	_	_	_	_
+203	opgewuess	opwuessen	V	_	n-fin	_	_	_	_
+204	.	.	$	_	_	_	_	_	_
+
+

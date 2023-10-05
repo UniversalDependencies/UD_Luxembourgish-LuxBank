@@ -1,16 +1,12 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
-
+The LuxBank corpus currently consists of the translated Cairo Cicling examples, and will be extended to include examples from a national dataset.
 
 # Introduction
 
-...
+The LuxBank corpus aims to be the first treebank corpus of Luxembourgish.
 
 
-# Acknowledgments
-
-...
 
 ## References
 
