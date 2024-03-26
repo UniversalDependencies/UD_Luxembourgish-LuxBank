@@ -8,7 +8,7 @@
 6	un	un	ADP	Prep	_	8	case	_	_
 7	säi	säin	DET	D	_	8	det:poss	_	poss
 8	Frënd	Frënd	NOUN	N	_	9	obl	_	_
-9	geschriwwen	schreiwen	VERB	V	_	0	root	_	n-fin
+9	geschriwwen	schreiwen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 10	.	.	PUNCT	$	_	9	punct	_	_
 
 # sent_id = test-c2
@@ -16,7 +16,7 @@
 1	Ech	Ech	PRON	P	_	2	nsubj	_	_
 2	mengen	mengen	VERB	V	_	0	root	_	fin
 3	et	et	PRON	P	_	4	nsubj	_	_
-4	reent	reenen	VERB	V	_	2	conj	_	fin
+4	reent	reenen	VERB	V	_	2	conj	_	fin|SpaceAfter=No
 5	.	.	PUNCT	$	_	2	punct	_	_
 
 # sent_id = test-c3
@@ -30,24 +30,24 @@
 6	mat	mat	ADP	Prep	_	7	case	_	_
 7	fëmmen	fëmmen	VERB	V	_	5	obl	_	n-fin
 8	an	an	CCONJ	Konj	_	9	cc	_	_
-9	drénken	drénken	VERB	V	_	7	conj	_	n-fin
+9	drénken	drénken	VERB	V	_	7	conj	_	n-fin|SpaceAfter=No
 10	.	.	PUNCT	$	_	3	punct	_	_
 
 # sent_id = test-c4
 # text = Wëlls du goen?
 1	Wëlls	Wëllen	VERB	V	_	0	root	_	fin
 2	du	du	PRON	P	_	1	nsubj	_	_
-3	goen	goen	VERB	V	_	1	xcomp	_	n-fin
+3	goen	goen	VERB	V	_	1	xcomp	_	n-fin|SpaceAfter=No
 4	?	?	PUNCT	$	_	1	punct	_	_
 
 # sent_id = test-c5
 # text = Sam, maach d'Fënster op!
-1	Sam	Sam	NOUN	N	_	3	vocative	_	name
+1	Sam	Sam	NOUN	N	_	3	vocative	_	name|SpaceAfter=No
 2	,	,	PUNCT	$	_	1	punct	_	_
 3	maach	maachen	VERB	V	_	0	root	_	fin
-4	d'	d'	DET	D	_	4	det	_	def
+4	d'	d'	DET	D	_	4	det	_	def|SpaceAfter=No
 5	Fënster	Fënster	NOUN	N	_	3	obj	_	_
-6	op	op	PART	VPart	_	3	adp	_	_
+6	op	op	PART	VPart	_	3	adp	_	_|SpaceAfter=No
 7	!	!	PUNCT	$	_	3	punct	_	_
 
 # sent_id = test-c6
@@ -59,7 +59,7 @@
 5	den	den	DET	D	_	6	det	_	def
 6	Auto	Auto	NOUN	N	_	7	obj	_	_
 7	wäsche	wäschen	VERB	V	_	8	xcomp	_	n-fin
-8	gedoen	dinn	VERB	V	_	0	root	_	n-fin
+8	gedoen	dinn	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 9	.	.	PUNCT	$	_	8	punct	_	_
 
 # sent_id = test-c7
@@ -72,7 +72,7 @@
 6	den	den	DET	D	_	7	det	_	def
 7	Zonk	Zonk	NOUN	N	_	9	obj	_	_
 8	rout	rout	ADJ	Adj	_	9	xcomp	_	_
-9	ugestrach	usträichen	VERB	V	_	0	root	_	n-fin
+9	ugestrach	usträichen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 10	.	.	PUNCT	$	_	9	punct	_	_
 
 # sent_id = test-c8
@@ -83,24 +83,24 @@
 4	méi	méi	ADV	Adv	_	5	advmod	_	_
 5	cool	cool	ADJ	Adj	_	0	root	_	_
 6	wéi	wéi	CCONJ	Konj	_	7	cc	_	_
-7	däin	däin	DET	D	_	5	conj	_	poss
+7	däin	däin	DET	D	_	5	conj	_	poss|SpaceAfter=No
 8	.	.	PUNCT	$	_	5	punct	_	_
 
 # sent_id = test-c9
 # text = D'Mary huet Bronze gewonnen, de Peter Sëlwer an d'Jane Gold.
-1	D'	D'	DET	D	_	2	det	_	def
+1	D'	D'	DET	D	_	2	det	_	def|SpaceAfter=No
 2	Mary	Mary	NOUN	N	_	5	nsubj	_	name
 3	huet	hunn	VERB	V	_	5	aux	_	fin
 4	Bronze	Bronze	NOUN	N	_	5	obj	_	_
-5	gewonnen	gewannen	VERB	V	_	0	root	_	n-fin
+5	gewonnen	gewannen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 6	,	,	PUNCT	$	_	5	punct	_	_
 7	de	den	DET	D	_	8	det	_	def
 8	Peter	Peter	NOUN	N	_	2	remnant	_	name
 9	Sëlwer	Sëlwer	NOUN	N	_	4	remnant	_	_
 10	an	an	CCONJ	Konj	_	5	cc	_	_
-11	d'	d'	DET	D	_	12	det	_	def
+11	d'	d'	DET	D	_	12	det	_	def|SpaceAfter=No
 12	Jane	Jane	NOUN	N	_	8	remnant	_	name
-13	Gold	Gold	NOUN	N	_	9	remnant	_	_
+13	Gold	Gold	NOUN	N	_	9	remnant	_	SpaceAfter=No
 14	.	.	PUNCT	$	_	5	punct	_	_
 
 # sent_id = test-c10
@@ -112,7 +112,7 @@
 5	oder	oder	CCONJ	Konj	_	7	cc	_	_
 6	e	en	DET	D	_	7	det	_	indef
 7	klengt	kleng	ADJ	Adj	_	4	conj	_	_
-8	Land	Land	NOUN	N	_	0	root	_	_
+8	Land	Land	NOUN	N	_	0	root	_	SpaceAfter=No
 9	?	?	PUNCT	$	_	8	punct	_	_
 
 # sent_id = test-c11
@@ -122,12 +122,12 @@
 3	Peter	Peter	NOUN	N	_	10	nsubj	_	name
 4	Smith	Smith	NOUN	N	_	3	flat	_	name
 5	nach	nach	CCONJ	Konj	_	7	cc	_	_
-6	d'	d'	DET	D	_	7	det	_	def
+6	d'	d'	DET	D	_	7	det	_	def|SpaceAfter=No
 7	Mary	Mary	NOUN	N	_	3	conj	_	name
 8	Brown	Brown	NOUN	N	_	7	flat	_	name
 9	konnten	kënnen	VERB	V	_	10	aux	_	fin
 10	ausgewielt	auswielen	VERB	V	_	0	root	_	n-fin
-11	ginn	ginn	VERB	V	_	10	aux	_	n-fin
+11	ginn	ginn	VERB	V	_	10	aux	_	n-fin|SpaceAfter=No
 12	.	.	PUNCT	$	_	10	punct	_	_
 
 # sent_id = test-c12
@@ -135,12 +135,12 @@
 1	Si	Si	PRON	P	_	2	nsubj	_	_
 2	hu	hunn	VERB	V	_	0	root	_	fin
 3	keng	keng	DET	D	_	4	det	_	indef
-4	Anung	Anung	NOUN	N	_	2	obj	_	_
+4	Anung	Anung	NOUN	N	_	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	$	_	8	punct	_	_
 6	wien	wien	PRON	P	_	8	nsubj	_	_
 7	et	et	PRON	P	_	8	obj	_	_
 8	geschriwwen	schreiwen	VERB	V	_	4	acl	_	n-fin
-9	huet	hunn	VERB	V	_	8	aux	_	fin
+9	huet	hunn	VERB	V	_	8	aux	_	fin|SpaceAfter=No
 10	.	.	PUNCT	$	_	2	punct	_	_
 
 # sent_id = test-c13
@@ -149,20 +149,20 @@
 2	kucks	kucken	VERB	V	_	0	root	_	fin
 3	du	du	PRON	P	_	2	nsubj	_	_
 4	dir	du	PRON	P	_	2	iobj	_	_
-5	un	un	PART	VPart	_	2	adp	_	_
+5	un	un	PART	VPart	_	2	adp	_	SpaceAfter=No
 6	?	?	PUNCT	$	_	2	punct	_	_
 
 # sent_id = test-c14
 # text = Wéini mengs du, datt s du komme kanns?
 1	Wéini	Wéini	PRON	P	_	8	advmod	_	_
 2	mengs	mengen	VERB	V	_	0	root	_	fin
-3	du	du	PRON	P	_	2	nsubj	_	_
+3	du	du	PRON	P	_	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$	_	8	punct	_	_
 5	datt	datt	SCONJ	Subj	_	8	mark	_	_
 6	s	s	PART	PTK	_	7	clit	_	clitic
 7	du	du	PRON	P	_	8	nsubj	_	_
 8	komme	kommen	VERB	V	_	2	ccomp	_	n-fin
-9	kanns	kënnen	VERB	V	_	8	aux	_	fin
+9	kanns	kënnen	VERB	V	_	8	aux	_	fin|SpaceAfter=No
 10	?	?	PUNCT	$	_	2	punct	_	_
 
 # sent_id = test-c15
@@ -171,14 +171,14 @@
 2	huet	hunn	VERB	V	_	5	aux	_	fin
 3	en	en	DET	D	_	4	det	_	indef
 4	Auto	Auto	NOUN	N	_	5	obj	_	_
-5	kaaft	kafen	VERB	V	_	0	root	_	n-fin
+5	kaaft	kafen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 6	,	,	PUNCT	$	_	9	punct	_	_
 7	awer	awer	CCONJ	Konj	_	9	cc	_	_
 8	säi	säin	DET	D	_	9	det:poss	_	poss
 9	Brudder	Brudder	NOUN	N	_	1	remnant	_	_
 10	just	just	ADV	Adv	_	12	advmod	_	_
 11	e	en	DET	D	_	12	det	_	indef
-12	Vëlo	Vëlo	NOUN	N	_	4	remnant	_	_
+12	Vëlo	Vëlo	NOUN	N	_	4	remnant	_	SpaceAfter=No
 13	.	.	PUNCT	$	_	5	punct	_	_
 
 # sent_id = test-c16
@@ -186,7 +186,7 @@
 1	De	Den	DET	D	_	2	det	_	def
 2	Peter	Peter	NOUN	N	_	8	nsubj	_	name
 3	an	an	CCONJ	Konj	_	5	cc	_	_
-4	d'	d'	DET	D	_	5	det	_	def
+4	d'	d'	DET	D	_	5	det	_	def|SpaceAfter=No
 5	Mary	Mary	NOUN	N	_	2	conj	_	name
 6	hunn	hunn	VERB	V	_	8	aux	_	fin
 7	sech	sech	PRON	P	_	8	expl:pv	_	_
@@ -195,7 +195,7 @@
 10	dunn	dunn	ADV	Adv	_	13	advmod	_	_
 11	de	den	DET	D	_	12	det	_	def
 12	Raum	Raum	NOUN	N	_	13	obj	_	_
-13	verlooss	verloossen	VERB	V	_	8	conj	_	fin
+13	verlooss	verloossen	VERB	V	_	8	conj	_	fin|SpaceAfter=No
 14	.	.	PUNCT	$	_	8	punct	_	_
 
 # sent_id = test-c17
@@ -205,7 +205,7 @@
 3	sollen	sollen	VERB	V	_	6	aux	_	n-fin
 4	hir	hir	DET	D	_	5	det:poss	_	poss
 5	Hoer	Hoer	NOUN	N	_	6	obj	_	_
-6	maachen	maachen	VERB	V	_	0	root	_	n-fin
+6	maachen	maachen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 7	,	,	PUNCT	$	_	18	punct	_	_
 8	awer	awer	CCONJ	Konj	_	18	cc	_	_
 9	aus	aus	ADP	Prep	_	11	case	_	_
@@ -217,7 +217,7 @@
 15	deen	deen	DET	D	_	16	det:poss	_	def
 16	Dag	Dag	NOUN	N	_	18	advmod	_	_
 17	net	net	PART	Part	_	18	neg	_	_
-18	gemaach	maachen	VERB	V	_	6	conj	_	n-fin
+18	gemaach	maachen	VERB	V	_	6	conj	_	n-fin|SpaceAfter=No
 19	.	.	PUNCT	$	_	6	punct	_	_
 
 # sent_id = test-c18
@@ -225,14 +225,14 @@
 1	Ech	Ech	PRON	P	_	4	nsubj	_	_
 2	konnt	kënnen	VERB	V	_	4	aux	_	fin
 3	net	net	PART	Part	_	4	neg	_	_
-4	mathalen	mathalen	VERB	V	_	0	root	_	n-fin
+4	mathalen	mathalen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 5	,	,	PUNCT	$	_	10	punct	_	_
 6	well	well	SCONJ	Subj	_	10	mark	_	_
 7	hien	hien	PRON	P	_	10	nsubj	_	_
 8	ze	ze	PART	Part	_	10	advmod	_	_
 9	séier	séier	ADJ	Adj	_	10	advmod	_	_
 10	gelaf	lafen	VERB	V	_	4	advcl	_	n-fin
-11	ass	ass	VERB	V	_	10	aux	_	fin
+11	ass	ass	VERB	V	_	10	aux	_	fin|SpaceAfter=No
 12	.	.	PUNCT	$	_	4	punct	_	_
 
 # sent_id = test-c19
@@ -248,7 +248,7 @@
 8	e	en	PRON	P	_	11	nsubj	_	_
 9	gouf	ginn	VERB	V	_	11	aux	_	fin
 10	gëschter	gëschter	ADV	Adv	_	11	advmod	_	_
-11	zougestallt	zoustellen	VERB	V	_	6	conj	_	n-fin
+11	zougestallt	zoustellen	VERB	V	_	6	conj	_	n-fin|SpaceAfter=No
 12	.	.	PUNCT	$	_	3	punct	_	_
 
 # sent_id = test-c20
@@ -256,12 +256,12 @@
 1	Si	Si	PRON	P	_	11	nsubj	_	_
 2	ass	sinn	VERB	V	_	11	aux	_	fin
 3	zu	zu	ADP	Prep	_	4	case	_	_
-4	Paräis	Paräis	NOUN	N	_	11	iobj	_	_
+4	Paräis	Paräis	NOUN	N	_	11	iobj	_	SpaceAfter=No
 5	,	,	PUNCT	$	_	7	punct	_	_
 6	der	d'	DET	D	_	7	det	_	def
 7	Haaptstad	Haaptstad	NOUN	N	_	4	appos	_	_
 8	vu	vun	ADP	Prep	_	9	case	_	_
-9	Frankräich	Frankräich	NOUN	N	_	7	nmod	_	_
+9	Frankräich	Frankräich	NOUN	N	_	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	$	_	7	punct	_	_
-11	opgewuess	opwuessen	VERB	V	_	0	root	_	n-fin
+11	opgewuess	opwuessen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 12	.	.	PUNCT	$	_	11	punct	_	_
