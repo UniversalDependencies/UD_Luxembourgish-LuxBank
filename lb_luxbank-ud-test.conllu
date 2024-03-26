@@ -1,6 +1,6 @@
 # sent_id = test-c1
 # text = D'Meedchen huet e Bréif un säi Frënd geschriwwen.
-1	D'	D'	DET	D	_	2	det	_	def
+1	D'	D'	DET	D	_	2	det	_	def|SpaceAfter=No
 2	Meedchen	Meedchen	NOUN	N	_	9	nsubj	_	_
 3	huet	hunn	VERB	V	_	9	aux	_	fin
 4	e	en	DET	D	_	9	det	_	indef
