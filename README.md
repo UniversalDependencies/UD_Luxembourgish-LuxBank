@@ -30,7 +30,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Plum, Alistair; Purschke, Christoph
+Contributors: Plum, Alistair; Purschke, Christoph; Döhmer, Caroline; Lutgen, Anne-Marie; Milano, Emilia
 Contributing: here
 Contact: alistair.plum@uni.lu
 ===============================================================================
