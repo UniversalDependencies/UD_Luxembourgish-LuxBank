@@ -241,7 +241,7 @@
 2	Bréif	Bréif	NOUN	N	_	5	nsubj	_	_
 3	ass	sinn	VERB	V	_	5	cop	_	_
 4-5	vum	_	_	_	_	_	_	_	_
-4	vun	vun	Prep	Pred	_	5	case	_	_
+4	vun	vun	ADP	Prep	_	5	case	_	_
 5	dem	dem	DET	D	_	4	det	_	def
 6	Peter	Peter	NOUN	N	_	0	root	_	_
 7	an	an	CCONJ	Konj	_	11	cc	_	_
@@ -263,5 +263,5 @@
 8	vu	vun	ADP	Prep	_	9	case	_	_
 9	Frankräich	Frankräich	NOUN	N	_	7	nmod	_	_
 10	,	,	PUNCT	$	_	7	punct	_	_
-11	opgewuess	opwuessen	VERB	V	_	,	root	_	n-fin
+11	opgewuess	opwuessen	VERB	V	_	0	root	_	n-fin
 12	.	.	PUNCT	$	_	11	punct	_	_
