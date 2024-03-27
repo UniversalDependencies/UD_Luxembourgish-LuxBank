@@ -45,7 +45,7 @@
 1	Sam	Sam	NOUN	N	_	3	vocative	_	name|SpaceAfter=No
 2	,	,	PUNCT	$	_	1	punct	_	_
 3	maach	maachen	VERB	V	_	0	root	_	fin
-4	d'	d'	DET	D	_	4	det	_	def|SpaceAfter=No
+4	d'	d'	DET	D	_	5	det	_	def|SpaceAfter=No
 5	Fënster	Fënster	NOUN	N	_	3	obj	_	_
 6	op	op	PART	VPart	_	3	adp	_	_|SpaceAfter=No
 7	!	!	PUNCT	$	_	3	punct	_	_
@@ -265,3 +265,4 @@
 10	,	,	PUNCT	$	_	7	punct	_	_
 11	opgewuess	opwuessen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 12	.	.	PUNCT	$	_	11	punct	_	_
+
