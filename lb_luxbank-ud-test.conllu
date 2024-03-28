@@ -1,8 +1,8 @@
 # sent_id = test-c1
 # text = D'Meedchen huet e Bréif un säi Frënd geschriwwen.
-1	D'	D'	DET	D	_	2	det	_	def|SpaceAfter=No
+1	D'	d'	DET	D	_	2	det	_	def|SpaceAfter=No
 2	Meedchen	Meedchen	NOUN	N	_	9	nsubj	_	_
-3	huet	hunn	VERB	V	_	9	aux	_	fin
+3	huet	hunn	AUX	V	_	9	aux	_	fin
 4	e	en	DET	D	_	9	det	_	indef
 5	Bréif	Bréif	NOUN	N	_	9	obj	_	_
 6	un	un	ADP	Prep	_	8	case	_	_
@@ -13,7 +13,7 @@
 
 # sent_id = test-c2
 # text = Ech mengen et reent.
-1	Ech	Ech	PRON	P	_	2	nsubj	_	_
+1	Ech	ech	PRON	P	_	2	nsubj	_	_
 2	mengen	mengen	VERB	V	_	0	root	_	fin
 3	et	et	PRON	P	_	4	nsubj	_	_
 4	reent	reenen	VERB	V	_	2	conj	_	fin|SpaceAfter=No
@@ -21,8 +21,8 @@
 
 # sent_id = test-c3
 # text = Hien huet probéiert opzehale mat fëmmen an drénken.
-1	Hien	Hien	PRON	P	_	3	nsubj	_	_
-2	huet	hunn	VERB	V	_	3	aux	_	fin
+1	Hien	hien	PRON	P	_	3	nsubj	_	_
+2	huet	hunn	AUX	V	_	3	aux	_	fin
 3	probéiert	probéieren	VERB	V	_	0	root	_	n-fin
 4-5	opzehale	_	_	_	_	_	_	_	_
 4	ze	ze	PART	Part	_	5	mark	_	_
@@ -35,7 +35,7 @@
 
 # sent_id = test-c4
 # text = Wëlls du goen?
-1	Wëlls	Wëllen	VERB	V	_	0	root	_	fin
+1	Wëlls	wëllen	VERB	V	_	0	root	_	fin
 2	du	du	PRON	P	_	1	nsubj	_	_
 3	goen	goen	VERB	V	_	1	xcomp	_	n-fin|SpaceAfter=No
 4	?	?	PUNCT	$	_	1	punct	_	_
@@ -52,8 +52,8 @@
 
 # sent_id = test-c6
 # text = Si huet hire Mann den Auto wäsche gedoen.
-1	Si	Si	PRON	P	_	8	nsubj	_	_
-2	huet	hunn	VERB	V	_	8	aux	_	fin
+1	Si	si	PRON	P	_	8	nsubj	_	_
+2	huet	hunn	AUX	V	_	8	aux	_	fin
 3	hire	hir	DET	D	_	4	det:poss	_	poss
 4	Mann	Mann	NOUN	N	_	8	obj	_	_
 5	den	den	DET	D	_	6	det	_	def
@@ -64,11 +64,11 @@
 
 # sent_id = test-c7
 # text = Dem Peter säin Noper huet den Zonk rout ugestrach.
-1	Dem	Den	DET	D	_	2	det	_	def
+1	Dem	den	DET	D	_	2	det	_	def
 2	Peter	Peter	NOUN	N	_	4	nmod:poss	_	name
 3	säin	säin	DET	D	_	4	det:poss	_	poss
 4	Noper	Noper	NOUN	N	_	9	nsubj	_	_
-5	huet	hunn	VERB	V	_	9	aux	_	fin
+5	huet	hunn	AUX	V	_	9	aux	_	fin
 6	den	den	DET	D	_	7	det	_	def
 7	Zonk	Zonk	NOUN	N	_	9	obj	_	_
 8	rout	rout	ADJ	Adj	_	9	xcomp	_	_
@@ -77,9 +77,9 @@
 
 # sent_id = test-c8
 # text = Mäi Papp ass méi cool wéi däin.
-1	Mäi	Mäin	DET	D	_	2	det:poss	_	poss
+1	Mäi	mäin	DET	D	_	2	det:poss	_	poss
 2	Papp	Papp	NOUN	N	_	5	nsubj	_	_
-3	ass	sinn	VERB	V	_	5	cop	_	fin
+3	ass	sinn	AUX	V	_	5	cop	_	fin
 4	méi	méi	ADV	Adv	_	5	advmod	_	_
 5	cool	cool	ADJ	Adj	_	0	root	_	_
 6	wéi	wéi	CCONJ	Konj	_	7	cc	_	_
@@ -88,9 +88,9 @@
 
 # sent_id = test-c9
 # text = D'Mary huet Bronze gewonnen, de Peter Sëlwer an d'Jane Gold.
-1	D'	D'	DET	D	_	2	det	_	def|SpaceAfter=No
+1	D'	d'	DET	D	_	2	det	_	def|SpaceAfter=No
 2	Mary	Mary	NOUN	N	_	5	nsubj	_	name
-3	huet	hunn	VERB	V	_	5	aux	_	fin
+3	huet	hunn	AUX	V	_	5	aux	_	fin
 4	Bronze	Bronze	NOUN	N	_	5	obj	_	_
 5	gewonnen	gewannen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 6	,	,	PUNCT	$	_	5	punct	_	_
@@ -105,7 +105,7 @@
 
 # sent_id = test-c10
 # text = Ass Iguazu e grousst oder e klengt Land?
-1	Ass	Sinn	VERB	V	_	8	cop	_	fin
+1	Ass	sinn	AUX	V	_	8	cop	_	fin
 2	Iguazu	Iguazu	NOUN	N	_	8	nsubj	_	name
 3	e	en	DET	D	_	8	det	_	indef
 4	grousst	grouss	ADJ	Adj	_	8	amod	_	_
@@ -117,7 +117,7 @@
 
 # sent_id = test-c11
 # text = Weeder de Peter Smith nach d'Mary Brown konnten ausgewielt ginn.
-1	Weeder	Weeder	CCONJ	Konj	_	3	cc	_	_
+1	Weeder	weeder	CCONJ	Konj	_	3	cc	_	_
 2	de	den	DET	D	_	3	det	_	def
 3	Peter	Peter	NOUN	N	_	10	nsubj	_	name
 4	Smith	Smith	NOUN	N	_	3	flat	_	name
@@ -125,27 +125,27 @@
 6	d'	d'	DET	D	_	7	det	_	def|SpaceAfter=No
 7	Mary	Mary	NOUN	N	_	3	conj	_	name
 8	Brown	Brown	NOUN	N	_	7	flat	_	name
-9	konnten	kënnen	VERB	V	_	10	aux	_	fin
+9	konnten	kënnen	AUX	V	_	10	aux	_	fin
 10	ausgewielt	auswielen	VERB	V	_	0	root	_	n-fin
-11	ginn	ginn	VERB	V	_	10	aux	_	n-fin|SpaceAfter=No
+11	ginn	ginn	AUX	V	_	10	aux	_	n-fin|SpaceAfter=No
 12	.	.	PUNCT	$	_	10	punct	_	_
 
 # sent_id = test-c12
 # text = Si hu keng Anung, wien et geschriwwen huet.
-1	Si	Si	PRON	P	_	2	nsubj	_	_
-2	hu	hunn	AUX	V	_	0	root	_	fin
+1	Si	si	PRON	P	_	2	nsubj	_	_
+2	hu	hunn	VERB	V	_	0	root	_	fin
 3	keng	keng	DET	D	_	4	det	_	indef
 4	Anung	Anung	NOUN	N	_	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	$	_	8	punct	_	_
 6	wien	wien	PRON	P	_	8	nsubj	_	_
 7	et	et	PRON	P	_	8	obj	_	_
 8	geschriwwen	schreiwen	VERB	V	_	4	acl	_	n-fin
-9	huet	hunn	VERB	V	_	8	aux	_	fin|SpaceAfter=No
+9	huet	hunn	AUX	V	_	8	aux	_	fin|SpaceAfter=No
 10	.	.	PUNCT	$	_	2	punct	_	_
 
 # sent_id = test-c13
 # text = Wat kucks du dir un?
-1	Wat	Wat	PRON	P	_	2	obj	_	_
+1	Wat	wat	PRON	P	_	2	obj	_	_
 2	kucks	kucken	VERB	V	_	0	root	_	fin
 3	du	du	PRON	P	_	2	nsubj	_	_
 4	dir	du	PRON	P	_	2	iobj	_	_
@@ -154,21 +154,21 @@
 
 # sent_id = test-c14
 # text = Wéini mengs du, datt s du komme kanns?
-1	Wéini	Wéini	ADV	Adv	_	8	advmod	_	_
+1	Wéini	wéini	ADV	Adv	_	8	advmod	_	_
 2	mengs	mengen	VERB	V	_	0	root	_	fin
 3	du	du	PRON	P	_	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	$	_	8	punct	_	_
 5	datt	datt	SCONJ	Subj	_	8	mark	_	_
-6	s	s	PART	PTK	_	7	clitic	_	_
+6	s	s	PART	PTK	_	7	dep	_	clitic
 7	du	du	PRON	P	_	8	nsubj	_	_
 8	komme	kommen	VERB	V	_	2	ccomp	_	n-fin
-9	kanns	kënnen	VERB	V	_	8	aux	_	fin|SpaceAfter=No
+9	kanns	kënnen	AUX	V	_	8	aux	_	fin|SpaceAfter=No
 10	?	?	PUNCT	$	_	2	punct	_	_
 
 # sent_id = test-c15
 # text = Hien huet en Auto kaaft, awer säi Brudder just e Vëlo.
-1	Hien	Hien	PRON	P	_	5	nsubj	_	_
-2	huet	hunn	VERB	V	_	5	aux	_	fin
+1	Hien	hien	PRON	P	_	5	nsubj	_	_
+2	huet	hunn	AUX	V	_	5	aux	_	fin
 3	en	en	DET	D	_	4	det	_	indef
 4	Auto	Auto	NOUN	N	_	5	obj	_	_
 5	kaaft	kafen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
@@ -183,12 +183,12 @@
 
 # sent_id = test-c16
 # text = De Peter an d'Mary hunn sech ëmaarmt an dunn de Raum verlooss.
-1	De	Den	DET	D	_	2	det	_	def
+1	De	den	DET	D	_	2	det	_	def
 2	Peter	Peter	NOUN	N	_	8	nsubj	_	name
 3	an	an	CCONJ	Konj	_	5	cc	_	_
 4	d'	d'	DET	D	_	5	det	_	def|SpaceAfter=No
 5	Mary	Mary	NOUN	N	_	2	conj	_	name
-6	hunn	hunn	VERB	V	_	8	aux	_	fin
+6	hunn	hunn	AUX	V	_	8	aux	_	fin
 7	sech	sech	PRON	P	_	8	expl:pv	_	_
 8	ëmaarmt	ëmaarmen	VERB	V	_	0	root	_	n-fin
 9	an	an	CCONJ	Konj	_	13	cc	_	_
@@ -200,9 +200,9 @@
 
 # sent_id = test-c17
 # text = Si hätt sollen hir Hoer maachen, awer aus iergendengem Grond huet si et deen Dag net gemaach.
-1	Si	Si	PRON	P	_	6	nsubj	_	_
-2	hätt	hunn	VERB	V	_	6	aux	_	fin
-3	sollen	sollen	VERB	V	_	6	aux	_	n-fin
+1	Si	si	PRON	P	_	6	nsubj	_	_
+2	hätt	hunn	AUX	V	_	6	aux	_	fin
+3	sollen	sollen	AUX	V	_	6	aux	_	n-fin
 4	hir	hir	DET	D	_	5	det:poss	_	poss
 5	Hoer	Hoer	NOUN	N	_	6	obj	_	_
 6	maachen	maachen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
@@ -211,20 +211,20 @@
 9	aus	aus	ADP	Prep	_	11	case	_	_
 10	iergendengem	iergendeen	DET	D	_	11	det	_	int
 11	Grond	Grond	NOUN	N	_	18	advmod	_	_
-12	huet	hunn	VERB	V	_	18	aux	_	fin
+12	huet	hunn	AUX	V	_	18	aux	_	fin
 13	si	si	PRON	P	_	18	nsubj	_	_
 14	et	et	PRON	P	_	18	obj	_	_
 15	deen	deen	DET	D	_	16	det:poss	_	def
 16	Dag	Dag	NOUN	N	_	18	advmod	_	_
-17	net	net	PART	Part	_	18	neg	_	_
+17	net	net	PART	Part	_	18	advmod	_	neg
 18	gemaach	maachen	VERB	V	_	6	conj	_	n-fin|SpaceAfter=No
 19	.	.	PUNCT	$	_	6	punct	_	_
 
 # sent_id = test-c18
 # text = Ech konnt net mathalen, well hien ze séier gelaf ass.
-1	Ech	Ech	PRON	P	_	4	nsubj	_	_
-2	konnt	kënnen	VERB	V	_	4	aux	_	fin
-3	net	net	PART	Part	_	4	neg	_	_
+1	Ech	ech	PRON	P	_	4	nsubj	_	_
+2	konnt	kënnen	AUX	V	_	4	aux	_	fin
+3	net	net	PART	Part	_	4	advmod	_	neg
 4	mathalen	mathalen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 5	,	,	PUNCT	$	_	10	punct	_	_
 6	well	well	SCONJ	Subj	_	10	mark	_	_
@@ -232,29 +232,29 @@
 8	ze	ze	PART	Part	_	10	advmod	_	_
 9	séier	séier	ADJ	Adj	_	10	advmod	_	_
 10	gelaf	lafen	VERB	V	_	4	advcl	_	n-fin
-11	ass	ass	VERB	V	_	10	aux	_	fin|SpaceAfter=No
+11	ass	ass	AUX	V	_	10	aux	_	fin|SpaceAfter=No
 12	.	.	PUNCT	$	_	4	punct	_	_
 
 # sent_id = test-c19
 # text = Dëse Bréif ass vum Peter an e gouf gëschter zougestallt.
-1	Dëse	Dësen	DET	D	_	2	det:poss	_	dem
+1	Dëse	dësen	DET	D	_	2	det:poss	_	dem
 2	Bréif	Bréif	NOUN	N	_	6	nsubj	_	_
-3	ass	sinn	VERB	V	_	6	cop	_	_
+3	ass	sinn	AUX	V	_	6	cop	_	_
 4-5	vum	_	_	_	_	_	_	_	_
 4	vun	vun	ADP	Prep	_	6	case	_	_
 5	dem	dem	DET	D	_	6	det	_	def
 6	Peter	Peter	NOUN	N	_	0	root	_	_
 7	an	an	CCONJ	Konj	_	11	cc	_	_
 8	e	en	PRON	P	_	11	nsubj	_	_
-9	gouf	ginn	VERB	V	_	11	aux	_	fin
+9	gouf	ginn	AUX	V	_	11	aux	_	fin
 10	gëschter	gëschter	ADV	Adv	_	11	advmod	_	_
 11	zougestallt	zoustellen	VERB	V	_	6	conj	_	n-fin|SpaceAfter=No
 12	.	.	PUNCT	$	_	6	punct	_	_
 
 # sent_id = test-c20
 # text = Si ass zu Paräis, der Haaptstad vu Frankräich, opgewuess.
-1	Si	Si	PRON	P	_	11	nsubj	_	_
-2	ass	sinn	VERB	V	_	11	aux	_	fin
+1	Si	si	PRON	P	_	11	nsubj	_	_
+2	ass	sinn	AUX	V	_	11	aux	_	fin
 3	zu	zu	ADP	Prep	_	4	case	_	_
 4	Paräis	Paräis	NOUN	N	_	11	iobj	_	SpaceAfter=No
 5	,	,	PUNCT	$	_	7	punct	_	_
