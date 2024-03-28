@@ -210,12 +210,12 @@
 8	awer	awer	CCONJ	Konj	_	18	cc	_	_
 9	aus	aus	ADP	Prep	_	11	case	_	_
 10	iergendengem	iergendeen	DET	D	_	11	det	_	int
-11	Grond	Grond	NOUN	N	_	18	advmod	_	_
+11	Grond	Grond	NOUN	N	_	18	obl	_	_
 12	huet	hunn	AUX	V	_	18	aux	_	fin
 13	si	si	PRON	P	_	18	nsubj	_	_
 14	et	et	PRON	P	_	18	obj	_	_
 15	deen	deen	DET	D	_	16	det:poss	_	def
-16	Dag	Dag	NOUN	N	_	18	advmod	_	_
+16	Dag	Dag	NOUN	N	_	18	obl	_	_
 17	net	net	PART	Part	_	18	advmod	_	neg
 18	gemaach	maachen	VERB	V	_	6	conj	_	n-fin|SpaceAfter=No
 19	.	.	PUNCT	$	_	6	punct	_	_
@@ -232,7 +232,7 @@
 8	ze	ze	PART	Part	_	10	advmod	_	_
 9	séier	séier	ADJ	Adj	_	10	advmod	_	_
 10	gelaf	lafen	VERB	V	_	4	advcl	_	n-fin
-11	ass	ass	AUX	V	_	10	aux	_	fin|SpaceAfter=No
+11	ass	sinn	AUX	V	_	10	aux	_	fin|SpaceAfter=No
 12	.	.	PUNCT	$	_	4	punct	_	_
 
 # sent_id = test-c19
