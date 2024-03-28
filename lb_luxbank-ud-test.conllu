@@ -133,7 +133,7 @@
 # sent_id = test-c12
 # text = Si hu keng Anung, wien et geschriwwen huet.
 1	Si	Si	PRON	P	_	2	nsubj	_	_
-2	hu	hunn	VERB	V	_	0	root	_	fin
+2	hu	hunn	AUX	V	_	0	root	_	fin
 3	keng	keng	DET	D	_	4	det	_	indef
 4	Anung	Anung	NOUN	N	_	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	$	_	8	punct	_	_
