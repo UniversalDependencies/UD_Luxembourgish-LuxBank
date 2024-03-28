@@ -24,7 +24,7 @@ The translation of the initial Cairo Cicling examples to Luxembourgish was carri
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.13
+Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: grammar-examples
