@@ -47,7 +47,7 @@
 3	maach	maachen	VERB	V	_	0	root	_	fin
 4	d'	d'	DET	D	_	5	det	_	def|SpaceAfter=No
 5	Fënster	Fënster	NOUN	N	_	3	obj	_	_
-6	op	op	PART	VPart	_	3	adp	_	_|SpaceAfter=No
+6	op	op	PART	VPart	_	3	dep	_	_|SpaceAfter=No
 7	!	!	PUNCT	$	_	3	punct	_	_
 
 # sent_id = test-c6
@@ -95,12 +95,12 @@
 5	gewonnen	gewannen	VERB	V	_	0	root	_	n-fin|SpaceAfter=No
 6	,	,	PUNCT	$	_	5	punct	_	_
 7	de	den	DET	D	_	8	det	_	def
-8	Peter	Peter	NOUN	N	_	2	remnant	_	name
-9	Sëlwer	Sëlwer	NOUN	N	_	4	remnant	_	_
+8	Peter	Peter	NOUN	N	_	5	conj	_	name
+9	Sëlwer	Sëlwer	NOUN	N	_	8	orphan	_	_
 10	an	an	CCONJ	Konj	_	5	cc	_	_
 11	d'	d'	DET	D	_	12	det	_	def|SpaceAfter=No
-12	Jane	Jane	NOUN	N	_	8	remnant	_	name
-13	Gold	Gold	NOUN	N	_	9	remnant	_	SpaceAfter=No
+12	Jane	Jane	NOUN	N	_	8	conj	_	name
+13	Gold	Gold	NOUN	N	_	12	orphan	_	SpaceAfter=No
 14	.	.	PUNCT	$	_	5	punct	_	_
 
 # sent_id = test-c10
@@ -149,7 +149,7 @@
 2	kucks	kucken	VERB	V	_	0	root	_	fin
 3	du	du	PRON	P	_	2	nsubj	_	_
 4	dir	du	PRON	P	_	2	iobj	_	_
-5	un	un	PART	VPart	_	2	adp	_	SpaceAfter=No
+5	un	un	PART	VPart	_	2	dep	_	SpaceAfter=No
 6	?	?	PUNCT	$	_	2	punct	_	_
 
 # sent_id = test-c14
@@ -175,10 +175,10 @@
 6	,	,	PUNCT	$	_	9	punct	_	_
 7	awer	awer	CCONJ	Konj	_	9	cc	_	_
 8	säi	säin	DET	D	_	9	det:poss	_	poss
-9	Brudder	Brudder	NOUN	N	_	1	remnant	_	_
+9	Brudder	Brudder	NOUN	N	_	5	conj	_	_
 10	just	just	ADV	Adv	_	12	advmod	_	_
 11	e	en	DET	D	_	12	det	_	indef
-12	Vëlo	Vëlo	NOUN	N	_	4	remnant	_	SpaceAfter=No
+12	Vëlo	Vëlo	NOUN	N	_	9	orphan	_	SpaceAfter=No
 13	.	.	PUNCT	$	_	5	punct	_	_
 
 # sent_id = test-c16
