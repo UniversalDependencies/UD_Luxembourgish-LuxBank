@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>20</sentences><tokens>204</tokens><words>206</words><fused>2</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>20</sentences><tokens>204</tokens><words>206</words><fused>2</fused></test>
+  </size>
+  <lemmas unique="110" /><!-- ., hunn, ,, d', den, en, Peter, an, du, si, sinn, ?, Mary, et, hien -->
+  <forms unique="126" /><!-- ., ,, huet, d', Peter, an, ass, e, si, ?, de, du, Mary, et, hien -->
+  <fusions unique="2" /><!-- opzehale, vum -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="12">
+    <tag name="ADJ">5</tag><!-- cool, grouss, kleng, rout, séier -->
+    <tag name="ADP">6</tag><!-- vun, aus, mat, un, zu -->
+    <tag name="ADV">5</tag><!-- dunn, gëschter, just, méi, wéini -->
+    <tag name="AUX">21</tag><!-- hunn, sinn, kënnen, ginn, sollen -->
+    <tag name="CCONJ">11</tag><!-- an, awer, nach, oder, weeder, wéi -->
+    <tag name="DET">31</tag><!-- d', den, en, säin, hir, deen, dem, däin, dësen, iergendeen -->
+    <tag name="NOUN">38</tag><!-- Peter, Mary, Auto, Bréif, Anung, Bronze, Brown, Brudder, Dag, Frankräich -->
+    <tag name="PART">7</tag><!-- net, ze, op, s, un -->
+    <tag name="PRON">22</tag><!-- du, si, et, hien, ech, en, sech, wat, wien -->
+    <tag name="PUNCT">29</tag><!-- ., ,, ?, ! -->
+    <tag name="SCONJ">2</tag><!-- datt, well -->
+    <tag name="VERB">29</tag><!-- maachen, mengen, schreiwen, auswielen, dinn, drénken, fëmmen, gewannen, goen, hunn -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="28">
+    <dep name="acl">1</dep>
+    <dep name="advcl">1</dep>
+    <dep name="advmod">9</dep>
+    <dep name="amod">1</dep>
+    <dep name="appos">1</dep>
+    <dep name="aux">18</dep>
+    <dep name="case">6</dep>
+    <dep name="cc">11</dep>
+    <dep name="ccomp">1</dep>
+    <dep name="conj">12</dep>
+    <dep name="cop">3</dep>
+    <dep name="dep">3</dep>
+    <dep name="det">22</dep>
+    <dep name="det:poss">8</dep>
+    <dep name="expl:pv">1</dep>
+    <dep name="flat">2</dep>
+    <dep name="iobj">2</dep>
+    <dep name="mark">3</dep>
+    <dep name="nmod">1</dep>
+    <dep name="nmod:poss">1</dep>
+    <dep name="nsubj">25</dep>
+    <dep name="obj">13</dep>
+    <dep name="obl">4</dep>
+    <dep name="orphan">3</dep>
+    <dep name="punct">29</dep>
+    <dep name="root">20</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">4</dep>
+  </deps>
+</treebank>
