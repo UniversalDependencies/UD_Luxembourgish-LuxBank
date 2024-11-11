@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Luxembourgish-LuxBank:
-commit 0253f8d835358053fb4f0ba545cb432d38730a6b
+commit 3d8f1eb49d5e25c69f14bc8a429a046077a625e6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 10:48:54 2024 +0200
+Date:   Sun May 5 13:04:20 2024 +0200
 Size: counted 206 of 206 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
