@@ -27,6 +27,7 @@ The translation of the initial Cairo Cicling examples to Luxembourgish was carri
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
