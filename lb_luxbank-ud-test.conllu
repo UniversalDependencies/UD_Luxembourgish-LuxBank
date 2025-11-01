@@ -1,4 +1,5 @@
 # sent_id = test-c1
+# parallel_id = cairo/1
 # text = D'Meedchen huet e Bréif un säi Frënd geschriwwen.
 1	D'	d'	DET	D	_	2	det	_	def|SpaceAfter=No
 2	Meedchen	Meedchen	NOUN	N	_	9	nsubj	_	_
@@ -12,6 +13,7 @@
 10	.	.	PUNCT	$	_	9	punct	_	_
 
 # sent_id = test-c2
+# parallel_id = cairo/2
 # text = Ech mengen et reent.
 1	Ech	ech	PRON	P	_	2	nsubj	_	_
 2	mengen	mengen	VERB	V	_	0	root	_	fin
@@ -20,6 +22,7 @@
 5	.	.	PUNCT	$	_	2	punct	_	_
 
 # sent_id = test-c3
+# parallel_id = cairo/3
 # text = Hien huet probéiert opzehale mat fëmmen an drénken.
 1	Hien	hien	PRON	P	_	3	nsubj	_	_
 2	huet	hunn	AUX	V	_	3	aux	_	fin
@@ -34,6 +37,7 @@
 10	.	.	PUNCT	$	_	3	punct	_	_
 
 # sent_id = test-c4
+# parallel_id = cairo/4
 # text = Wëlls du goen?
 1	Wëlls	wëllen	VERB	V	_	0	root	_	fin
 2	du	du	PRON	P	_	1	nsubj	_	_
@@ -41,6 +45,7 @@
 4	?	?	PUNCT	$	_	1	punct	_	_
 
 # sent_id = test-c5
+# parallel_id = cairo/5
 # text = Sam, maach d'Fënster op!
 1	Sam	Sam	NOUN	N	_	3	vocative	_	name|SpaceAfter=No
 2	,	,	PUNCT	$	_	1	punct	_	_
@@ -51,6 +56,7 @@
 7	!	!	PUNCT	$	_	3	punct	_	_
 
 # sent_id = test-c6
+# parallel_id = cairo/6
 # text = Si huet hire Mann den Auto wäsche gedoen.
 1	Si	si	PRON	P	_	8	nsubj	_	_
 2	huet	hunn	AUX	V	_	8	aux	_	fin
@@ -63,6 +69,7 @@
 9	.	.	PUNCT	$	_	8	punct	_	_
 
 # sent_id = test-c7
+# parallel_id = cairo/7
 # text = Dem Peter säin Noper huet den Zonk rout ugestrach.
 1	Dem	den	DET	D	_	2	det	_	def
 2	Peter	Peter	NOUN	N	_	4	nmod:poss	_	name
@@ -76,6 +83,7 @@
 10	.	.	PUNCT	$	_	9	punct	_	_
 
 # sent_id = test-c8
+# parallel_id = cairo/8
 # text = Mäi Papp ass méi cool wéi däin.
 1	Mäi	mäin	DET	D	_	2	det:poss	_	poss
 2	Papp	Papp	NOUN	N	_	5	nsubj	_	_
@@ -87,6 +95,7 @@
 8	.	.	PUNCT	$	_	5	punct	_	_
 
 # sent_id = test-c9
+# parallel_id = cairo/9
 # text = D'Mary huet Bronze gewonnen, de Peter Sëlwer an d'Jane Gold.
 1	D'	d'	DET	D	_	2	det	_	def|SpaceAfter=No
 2	Mary	Mary	NOUN	N	_	5	nsubj	_	name
@@ -104,6 +113,7 @@
 14	.	.	PUNCT	$	_	5	punct	_	_
 
 # sent_id = test-c10
+# parallel_id = cairo/10
 # text = Ass Iguazu e grousst oder e klengt Land?
 1	Ass	sinn	AUX	V	_	8	cop	_	fin
 2	Iguazu	Iguazu	NOUN	N	_	8	nsubj	_	name
@@ -116,6 +126,7 @@
 9	?	?	PUNCT	$	_	8	punct	_	_
 
 # sent_id = test-c11
+# parallel_id = cairo/11
 # text = Weeder de Peter Smith nach d'Mary Brown konnten ausgewielt ginn.
 1	Weeder	weeder	CCONJ	Konj	_	3	cc	_	_
 2	de	den	DET	D	_	3	det	_	def
@@ -131,6 +142,7 @@
 12	.	.	PUNCT	$	_	10	punct	_	_
 
 # sent_id = test-c12
+# parallel_id = cairo/12
 # text = Si hu keng Anung, wien et geschriwwen huet.
 1	Si	si	PRON	P	_	2	nsubj	_	_
 2	hu	hunn	VERB	V	_	0	root	_	fin
@@ -144,6 +156,7 @@
 10	.	.	PUNCT	$	_	2	punct	_	_
 
 # sent_id = test-c13
+# parallel_id = cairo/13
 # text = Wat kucks du dir un?
 1	Wat	wat	PRON	P	_	2	obj	_	_
 2	kucks	kucken	VERB	V	_	0	root	_	fin
@@ -153,6 +166,7 @@
 6	?	?	PUNCT	$	_	2	punct	_	_
 
 # sent_id = test-c14
+# parallel_id = cairo/14
 # text = Wéini mengs du, datt s du komme kanns?
 1	Wéini	wéini	ADV	Adv	_	8	advmod	_	_
 2	mengs	mengen	VERB	V	_	0	root	_	fin
@@ -166,6 +180,7 @@
 10	?	?	PUNCT	$	_	2	punct	_	_
 
 # sent_id = test-c15
+# parallel_id = cairo/15
 # text = Hien huet en Auto kaaft, awer säi Brudder just e Vëlo.
 1	Hien	hien	PRON	P	_	5	nsubj	_	_
 2	huet	hunn	AUX	V	_	5	aux	_	fin
@@ -182,6 +197,7 @@
 13	.	.	PUNCT	$	_	5	punct	_	_
 
 # sent_id = test-c16
+# parallel_id = cairo/16
 # text = De Peter an d'Mary hunn sech ëmaarmt an dunn de Raum verlooss.
 1	De	den	DET	D	_	2	det	_	def
 2	Peter	Peter	NOUN	N	_	8	nsubj	_	name
@@ -199,6 +215,7 @@
 14	.	.	PUNCT	$	_	8	punct	_	_
 
 # sent_id = test-c17
+# parallel_id = cairo/17
 # text = Si hätt sollen hir Hoer maachen, awer aus iergendengem Grond huet si et deen Dag net gemaach.
 1	Si	si	PRON	P	_	6	nsubj	_	_
 2	hätt	hunn	AUX	V	_	6	aux	_	fin
@@ -221,6 +238,7 @@
 19	.	.	PUNCT	$	_	6	punct	_	_
 
 # sent_id = test-c18
+# parallel_id = cairo/18
 # text = Ech konnt net mathalen, well hien ze séier gelaf ass.
 1	Ech	ech	PRON	P	_	4	nsubj	_	_
 2	konnt	kënnen	AUX	V	_	4	aux	_	fin
@@ -236,6 +254,7 @@
 12	.	.	PUNCT	$	_	4	punct	_	_
 
 # sent_id = test-c19
+# parallel_id = cairo/19
 # text = Dëse Bréif ass vum Peter an e gouf gëschter zougestallt.
 1	Dëse	dësen	DET	D	_	2	det:poss	_	dem
 2	Bréif	Bréif	NOUN	N	_	6	nsubj	_	_
@@ -252,6 +271,7 @@
 12	.	.	PUNCT	$	_	6	punct	_	_
 
 # sent_id = test-c20
+# parallel_id = cairo/20
 # text = Si ass zu Paräis, der Haaptstad vu Frankräich, opgewuess.
 1	Si	si	PRON	P	_	11	nsubj	_	_
 2	ass	sinn	AUX	V	_	11	aux	_	fin
