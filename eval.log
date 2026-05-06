@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Luxembourgish-LuxBank:
-commit 63d83ed753396cd6a165e42a2b2fc90d8525f8f1
-Merge: 6678d16 abac65b
+commit 7a01d1c12dabc88d099f9b4d64da3a0f1e6dbf43
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:16:24 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'lb_luxbank'
 Language code (from CoNLL-U file name) = 'lb'
